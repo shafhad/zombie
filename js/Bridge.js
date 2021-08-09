@@ -1,7 +1,7 @@
 class Bridge {
   constructor(nlink, pointA) {
     this.nlink = nlink;
-    this.image = loadImage("../wood.png")
+    this.image = loadImage("wood.png")
     const group = Body.nextGroup(true);
     const rects = Composites.stack(100, 100, this.nlink, 1, 5, 5, function(
       x,
